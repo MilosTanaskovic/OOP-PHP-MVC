@@ -1,0 +1,21 @@
+In this leason we will descation what is OOP...
+
+* OOP - Object Oriented Programming
+* Type of software design / methodology
+* Based on objects instead og fynctions and procedures
+* Data structure becomes an object with properties and methods
+
+Why we use OOP:
+
+* Cleaner and better organized
+* Modular structure
+* Better for teams
+* Re-usability
+* Easier to maintain
+
+What is different bettwen Objects and Classes (Objects vs Classses)
+
+* A class is like a blueprint for an object
+* There is one class which includes properties and methods
+* Multiple objects can be instantiated from the class.
+
