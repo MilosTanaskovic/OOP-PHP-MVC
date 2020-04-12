@@ -1,3 +1,5 @@
 What we will learn in this section:
 
 * Classes, properties(attributes) and methods
+* Access modidiers, magic methods, inheritance
+* Static methods and properties
