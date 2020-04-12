@@ -7,3 +7,4 @@ So, if you’ve decided to learn PHP, you’re moving towards a bright career, a
 
 # Contents
 1) PHP Manual - https://www.php.net/manual/en/index.php (right click - open link in new tab)
+2) 
