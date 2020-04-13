@@ -15,7 +15,7 @@ class User {
     }
 }
 
-$password = 'tanaskovic'
+$password = 'tanaskovic';
 if(User::validatePass($password)){
     echo 'Password valid';
 } else {
