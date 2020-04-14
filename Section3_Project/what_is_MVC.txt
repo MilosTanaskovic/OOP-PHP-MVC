@@ -1,0 +1,28 @@
+What is MVC
+
+* MVC - Model View Controller
+* SOftware arhitectural design pattern
+* One of the most frequently used patterns
+* Separates applications functions
+* Promotes organization
+
+The Modal:
+
+* Data related logic
+* Interacts with the database (SELECT, INSERT, UPDATE, DELETE)
+* Communicates With Controller
+* Can sometimes update the View
+
+The View:
+
+* What the user sees in the browser (UI)
+* Usually consists of HTML/CSS 
+* Communicates with the Controller
+* Can be passed dynamic values from Controller
+
+The Controller:
+
+* Receives input from the url, from, view, etc...
+* Processes requests (GET, POST, etc...)
+* Gets data from the Model
+* Passes data to the view
