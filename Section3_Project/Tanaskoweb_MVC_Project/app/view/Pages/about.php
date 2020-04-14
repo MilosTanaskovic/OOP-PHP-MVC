@@ -1,4 +1,4 @@
 <?php require APPROOT . '/view/inc/header.php' ?>
-about
+aboutt
 
 <?php require APPROOT . '/view/inc/footer.php' ?>
