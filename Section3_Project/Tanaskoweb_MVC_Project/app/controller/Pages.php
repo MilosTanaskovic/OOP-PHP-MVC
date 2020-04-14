@@ -4,10 +4,10 @@
          //echo 'pages loaded';
      }
      public function Index(){
-         $this->view('hello');
+         $this->view('Pages/index');
      }
-     public function About($id){
-        echo $id;
+     public function About(){
+         $this->view('Pages/about');
      }
  }
 
