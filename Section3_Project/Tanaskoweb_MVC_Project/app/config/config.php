@@ -3,7 +3,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root'); // Put YOUT USER
 define('DB_PASS', '123456'); // Put YOUR PASSWORD
-define('DB_NAME', 'tmvc'); // Put YOUR DATABASE NAME
+define('DB_NAME', 'shareposts'); // Put YOUR DATABASE NAME
 
 // App Root
 define('APPROOT', dirname(dirname(__FILE__))); 

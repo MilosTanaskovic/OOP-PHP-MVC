@@ -5,7 +5,7 @@
      }
      public function Index(){
         $data = [
-            'title'  => 'Welcome to Tanaskoweb_MVC Framwork'
+            'title'  => 'SharePosts'
         ];
 
          $this->view('Pages/index', $data);
