@@ -1,17 +1,12 @@
 <?php 
  class Pages extends Controller {
      public function __construct(){
-         //echo 'pages loaded';
-         $this->postModel = $this->model('Post');
+        
      }
      public function Index(){
-        $posts = $this->postModel->getPosts();
         $data = [
-            'title'  => 'Welcome to home page',
-            'posts' => $posts
+            'title'  => 'Welcome to Tanaskoweb_MVC Framwork'
         ];
-
-        
 
          $this->view('Pages/index', $data);
      }

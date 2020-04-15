@@ -1,1 +1,1 @@
-alert(1);
+alert('Hi, Build Something Amazing!');
