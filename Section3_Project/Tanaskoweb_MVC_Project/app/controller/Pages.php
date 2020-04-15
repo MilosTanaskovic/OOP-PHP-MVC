@@ -5,7 +5,15 @@
          $this->postModel = $this->model('Post');
      }
      public function Index(){
-         $this->view('Pages/index');
+        $posts = $this->postModel->getPosts();
+        $data = [
+            'title'  => 'Welcome to home page',
+            'posts' => $posts
+        ];
+
+        
+
+         $this->view('Pages/index', $data);
      }
      public function About(){
          $this->view('Pages/about');
