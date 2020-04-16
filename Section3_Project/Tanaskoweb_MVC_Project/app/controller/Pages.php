@@ -5,13 +5,19 @@
      }
      public function Index(){
         $data = [
-            'title'  => 'SharePosts'
+            'title'  => 'SharePosts',
+            'description' => 'Simple social network built on the Tanaskoweb_MVC PHP framework'
         ];
 
          $this->view('Pages/index', $data);
      }
      public function About(){
-         $this->view('Pages/about');
+        $data = [
+            'title' => 'About Us',
+            'description' => 'App to share posts with other users'
+        ];
+
+         $this->view('Pages/about', $data);
      }
  }
 

@@ -14,3 +14,6 @@ define('URLROOT', 'http://localhost/PHP/oop_php_mvc_advance/Section3_Project/Tan
 // Site Name
 
 define('SITENAME', 'Tanaskoweb_MVC'); // Put  YOUR SITI NAME
+
+// App version
+define('APPVERSION', '1.0.0');
