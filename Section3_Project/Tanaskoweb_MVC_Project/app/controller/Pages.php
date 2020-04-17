@@ -4,6 +4,11 @@
         
      }
      public function Index(){
+
+        if(isLoggedIn){
+            redirect('posts');
+        }
+
         $data = [
             'title'  => 'SharePosts',
             'description' => 'Simple social network built on the Tanaskoweb_MVC PHP framework'
