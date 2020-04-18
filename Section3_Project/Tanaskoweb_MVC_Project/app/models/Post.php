@@ -22,4 +22,21 @@ class Post {
         $results = $this->db->resultSet();
         return $results;
     }
+
+    public function addPost($data){
+        //$this->db->query('INSERT INTO shareposts.posts (title, user_id, body) VALUES(:title, :user_id, :body)');
+        $this->db->query('INSERT INTO shareposts.posts (user_id, title, body) VALUES(:user_id, :title, :body)');
+        // Bind values
+       
+        $this->db->bind(':user_id', $data['user_id']);
+        $this->db->bind(':title', $data['title']);
+        $this->db->bind(':body', $data['body']);
+
+        // Execute
+        if($this->db->execute()){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
