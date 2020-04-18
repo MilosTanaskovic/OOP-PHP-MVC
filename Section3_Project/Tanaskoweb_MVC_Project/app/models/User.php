@@ -51,4 +51,14 @@ class User{
             return false;
         }
     }
+
+    // Get user by email
+    public function getUserById($id){
+        $this->db->query('SELECT * FROM shareposts.users WHERE id = :id');
+        $this->db->bind(':id', $id);
+
+        $row = $this->db->single();
+
+        return $row;
+    }
 }
